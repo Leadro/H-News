@@ -5,3 +5,11 @@
 This is a basic application for iOS for viewing Hacker News.
 
 At the minute you can view the New and Top lists, and also view these directly in the app.
+
+## Screenshots
+
+![Screenshot 1](http://i.imgur.com/xEWZzLL.png)
+
+![Screenshot 2](http://i.imgur.com/s1CDUMI.png)
+
+![Screenshot 3](http://i.imgur.com/CNQCkZi.png)
