@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D6EF7781E4898A200326623 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6EF7771E4898A200326623 /* StoryViewController.swift */; };
+		9D6EF77A1E48A4E700326623 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 9D6EF7791E48A4E700326623 /* Readme.md */; };
 		9DB2D9D51E456870006F9A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2D9D41E456870006F9A64 /* AppDelegate.swift */; };
 		9DB2D9D71E456870006F9A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2D9D61E456870006F9A64 /* ViewController.swift */; };
 		9DB2D9DA1E456870006F9A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB2D9D81E456870006F9A64 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		9D6EF7771E4898A200326623 /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		9D6EF7791E48A4E700326623 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
 		9DB2D9D11E456870006F9A64 /* H News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB2D9D41E456870006F9A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DB2D9D61E456870006F9A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				9DB2D9D41E456870006F9A64 /* AppDelegate.swift */,
 				9DB2D9D61E456870006F9A64 /* ViewController.swift */,
 				9DB2D9D81E456870006F9A64 /* Main.storyboard */,
+				9D6EF7791E48A4E700326623 /* Readme.md */,
 				9D6EF7771E4898A200326623 /* StoryViewController.swift */,
 				9DB2D9E61E45695F006F9A64 /* HackerNews.swift */,
 				9DB2D9DB1E456871006F9A64 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6EF77A1E48A4E700326623 /* Readme.md in Sources */,
 				9D6EF7781E4898A200326623 /* StoryViewController.swift in Sources */,
 				9DB2D9E71E45695F006F9A64 /* HackerNews.swift in Sources */,
 				9DB2D9D71E456870006F9A64 /* ViewController.swift in Sources */,
