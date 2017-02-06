@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D6EF7781E4898A200326623 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6EF7771E4898A200326623 /* StoryViewController.swift */; };
 		9DB2D9D51E456870006F9A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2D9D41E456870006F9A64 /* AppDelegate.swift */; };
 		9DB2D9D71E456870006F9A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2D9D61E456870006F9A64 /* ViewController.swift */; };
 		9DB2D9DA1E456870006F9A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB2D9D81E456870006F9A64 /* Main.storyboard */; };
 		9DB2D9DC1E456871006F9A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB2D9DB1E456871006F9A64 /* Assets.xcassets */; };
 		9DB2D9DF1E456871006F9A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB2D9DD1E456871006F9A64 /* LaunchScreen.storyboard */; };
+		9DB2D9E71E45695F006F9A64 /* HackerNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB2D9E61E45695F006F9A64 /* HackerNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D6EF7771E4898A200326623 /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		9DB2D9D11E456870006F9A64 /* H News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB2D9D41E456870006F9A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DB2D9D61E456870006F9A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		9DB2D9DB1E456871006F9A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DB2D9DE1E456871006F9A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB2D9E01E456871006F9A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB2D9E61E45695F006F9A64 /* HackerNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				9DB2D9D41E456870006F9A64 /* AppDelegate.swift */,
 				9DB2D9D61E456870006F9A64 /* ViewController.swift */,
 				9DB2D9D81E456870006F9A64 /* Main.storyboard */,
+				9D6EF7771E4898A200326623 /* StoryViewController.swift */,
+				9DB2D9E61E45695F006F9A64 /* HackerNews.swift */,
 				9DB2D9DB1E456871006F9A64 /* Assets.xcassets */,
 				9DB2D9DD1E456871006F9A64 /* LaunchScreen.storyboard */,
 				9DB2D9E01E456871006F9A64 /* Info.plist */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6EF7781E4898A200326623 /* StoryViewController.swift in Sources */,
+				9DB2D9E71E45695F006F9A64 /* HackerNews.swift in Sources */,
 				9DB2D9D71E456870006F9A64 /* ViewController.swift in Sources */,
 				9DB2D9D51E456870006F9A64 /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Christopher-Hannah.H-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -278,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Christopher-Hannah.H-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -300,6 +310,7 @@
 				9DB2D9E51E456871006F9A64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
